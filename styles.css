@@ -11,19 +11,19 @@
 }
 
 :root {
-    /* Color palette - Modern gradient scheme */
-    --primary-gradient-start: #667eea;
-    --primary-gradient-end: #764ba2;
-    --background-dark: #0f0c29;
-    --background-mid: #302b63;
-    --background-light: #24243e;
+    /* Color palette - Unique teal-emerald professional scheme */
+    --primary-gradient-start: #14b8a6;
+    --primary-gradient-end: #059669;
+    --background-dark: #0a1f1c;
+    --background-mid: #1a3a35;
+    --background-light: #234842;
     --text-primary: #ffffff;
-    --text-secondary: #e0e0e0;
-    --input-bg: rgba(255, 255, 255, 0.1);
-    --input-border: rgba(255, 255, 255, 0.2);
-    --input-focus: rgba(102, 126, 234, 0.5);
-    --success-color: #4ade80;
-    --error-color: #f87171;
+    --text-secondary: #d1fae5;
+    --input-bg: rgba(20, 184, 166, 0.08);
+    --input-border: rgba(20, 184, 166, 0.25);
+    --input-focus: rgba(20, 184, 166, 0.4);
+    --success-color: #10b981;
+    --error-color: #ef4444;
 
     /* Spacing system */
     --spacing-xs: 0.5rem;
@@ -77,8 +77,8 @@ body::before {
     width: 100%;
     height: 100%;
     background-image:
-        radial-gradient(circle at 20% 50%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(118, 75, 162, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(20, 184, 166, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(5, 150, 105, 0.12) 0%, transparent 50%);
     pointer-events: none;
     animation: backgroundPulse 15s ease-in-out infinite;
     z-index: 0;
@@ -279,7 +279,7 @@ body::before {
 
 .submit-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 24px rgba(20, 184, 166, 0.5);
 }
 
 .submit-btn:active {
