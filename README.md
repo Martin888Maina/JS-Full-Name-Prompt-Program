@@ -2,6 +2,8 @@
 
 A modern, interactive web application that demonstrates fundamental JavaScript user interaction patterns through a clean and elegant interface. This project showcases best practices in form handling, input validation, and user experience design.
 
+**Live Demo:** [full-name-prompt.martinmaina.dev](https://full-name-prompt.martinmaina.dev)
+
 ## Overview
 
 This application provides users with a simple yet polished interface to enter their first and last names. The program demonstrates core JavaScript concepts including DOM manipulation, event handling, form validation, and dynamic content generation.
