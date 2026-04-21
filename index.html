@@ -3,29 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A simple, elegant web application that captures a user's first and last name with real-time validation and smooth animations.">
+    <meta name="author" content="Martin Maina">
+    <meta name="theme-color" content="#14b8a6">
+    <title>Full Name Input | Martin Maina</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    body{
-        text-align: center; 
-        font-family: Arial, Helvetica, sans-serif;
-   }
-</style>
 <body>
+    <main class="container">
+        <header class="header">
+            <h1>Full Name Input</h1>
+            <p>Enter your first and last name below</p>
+        </header>
 
-        <h1>JAVASCRIPT PROGRAM FOR ACQUIRING INFORMATION FROM THE USER USING PROMPTS</h1>
-        <script>
+        <section class="form-container">
+            <form id="nameForm" novalidate>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        autocomplete="given-name"
+                        maxlength="50"
+                        placeholder="e.g. Martin"
+                        required
+                        aria-required="true">
+                </div>
 
-            let firstName = prompt("Please Enter Your First Name");
-            
-            let lastName  = prompt("Please Enter Your Last Name");
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        autocomplete="family-name"
+                        maxlength="50"
+                        placeholder="e.g. Maina"
+                        required
+                        aria-required="true">
+                </div>
 
-            let fullName = firstName + " " + lastName;
+                <button id="submitBtn" type="submit" class="submit-btn">Submit</button>
+                <button id="resetBtn" type="button" class="reset-btn">Reset</button>
+            </form>
 
-            alert("Your Full Name is: " + fullName);
+            <div id="resultContainer" class="result-container" aria-live="polite">
+                <h2>Your Full Name</h2>
+                <p id="resultName" class="result-name"></p>
+            </div>
+        </section>
+    </main>
 
-        </script>
-
-
+    <script src="script.js" defer></script>
 </body>
 </html>
