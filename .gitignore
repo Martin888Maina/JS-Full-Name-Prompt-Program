@@ -4,6 +4,13 @@ GITHUB strategy for portfolio project application to be deployed to digital ocea
 complete guide to get started and configure digital ocean.md
 converting development code to production code.md
 digital ocean start up guide.md
+COMPLETE GUIDE TO FIX DEPLOYED DIGITAL OCEAN SECURITY ISSUES.txt
+SECURITY CONSIDERATIONS FOR DEPLOYED APPLICATIONS.txt
+HOW TO UPDATE AND REDEPLOY.md
+IMPLEMENTING PROPER COMMENTS FOR CODE BASES.md
+
+# Claude Code project files
+.claude/
 
 # OS / editor artefacts
 .DS_Store

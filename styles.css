@@ -1,6 +1,5 @@
-/* 
+/*
  * Full Name Input Application Styles
- * A modern, elegant design system with smooth animations and responsive layout
  */
 
 /* CSS Reset and Base Styles */
@@ -64,7 +63,6 @@ body {
     justify-content: center;
     padding: var(--spacing-md);
 
-    /* Smooth scrolling for better UX */
     overflow-x: hidden;
 }
 
@@ -258,7 +256,7 @@ body::before {
     overflow: hidden;
 }
 
-/* Button hover effect */
+/* Ripple overlay expands on hover */
 .submit-btn::before {
     content: '';
     position: absolute;
